@@ -1,10 +1,13 @@
 import zipfile
 import sys
 
+#Probado con la versión de python: 3.5
+#Script que permite visualizar la clave de un archivo .zip cifrado
+#Fecha de creación: 17 / Marzo / 2019
 if __name__ == '__main__':
     if len(sys.argv) != 3:
         print ('Ejemplo de uso:')
-        print ('\t\tdesencripta_zip_v1 Arg1 Arg2')
+        print ('\t\tpython3.5 desencripta_zip_v1 Arg1 Arg2')
         print ('Donde:')
         print ('\tArg1 : Archivo.zip')
         print ('\tArg2 : Diccionario')
